@@ -1,0 +1,22 @@
+{
+  "name": "authed-next-app",
+  "version": "1.0.0",
+  "description": "Authenticated Next App using cookies",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Landon Sturgeon",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
