@@ -1,9 +1,13 @@
+import Layout from "../components/layout.component";
+import Link from "next/link";
 
-
-const Index = () => (
-  <div title="Home">
-    <div>Welcome to the home page</div>
-  </div>
-)
-
-export default Index;
+export default function Index() {
+  return (
+    <Layout title="Home">
+      <Link href="/profile">
+        <a>Go to profile</a>
+      </Link>
+      <h1>This is just the profile page</h1>
+    </Layout>
+  )
+};

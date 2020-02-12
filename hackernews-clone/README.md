@@ -1,0 +1,1 @@
+Simple HackerNews Clone to show off what Next.js can do.

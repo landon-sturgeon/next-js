@@ -11,6 +11,7 @@
   "private": false,
   "dependencies": {
     "axios": "^0.19.2",
+    "cookie-parser": "^1.4.4",
     "express": "^4.17.1",
     "next": "^9.2.1",
     "react": "^16.12.0",
